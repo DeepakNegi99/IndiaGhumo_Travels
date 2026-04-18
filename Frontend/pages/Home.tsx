@@ -8,8 +8,10 @@ export const Home = () => {
       <Header />
       <VideoHero />
 
-      <div className="">
-        <p>Popular Destination</p>
+      <div className="p-6 text-center">
+        <h2 className="text-2xl font-semibold">
+          Popular Destination
+        </h2>
       </div>
       <Footer />
     </div>

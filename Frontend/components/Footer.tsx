@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
-    <footer className="">
-      <div className="">
+    <footer className=" bg-gray-900 text-white p-10 mt-10 shadow text-center justify-between">
+      <div className="grid grid-cols-3 gap-6">
         <div>
           <h3>About</h3>
           <p>Best travel packages in India</p>

@@ -1,4 +1,5 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import { createApi } from "@reduxjs/toolkit/query/react";
+// import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { type Package } from "../../features/packages/types";
 
 export const api = createApi({
@@ -31,10 +32,11 @@ export const api = createApi({
   },
   endpoints: (builder) => ({
     getPackage: builder.query<Package[], void>({
+      
       query: () => "/package",
     }),
 
-    getPackageById: builder.query<Package, string>({
+    getPackageById: builder.query<Package, number>({
       query: (id) => `/packages/${id}`,
     }),
   }),
