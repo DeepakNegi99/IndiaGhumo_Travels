@@ -364,3 +364,4 @@ FodyWeavers.xsd
 /API/appsettings.json
 API/store.db-shm
 API/store.db-wal
+Backend/appsettings.json
